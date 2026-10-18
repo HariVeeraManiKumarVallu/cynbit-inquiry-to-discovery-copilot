@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.DS_Store
+
+# Generated inquiry analyses (may contain user-entered text)
+outputs/*.json
+!outputs/.gitkeep
